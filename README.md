@@ -222,6 +222,10 @@ Now that we are done testing locally, we are ready to package up our code and su
 cd ../sagemaker_keras_text_classification/
 ```
 and edit the file named 'train'
+```
+vim train
+```
+change the section history = to match epoch number below
 
 ```python
 history = model.fit(x_train, y_train,
