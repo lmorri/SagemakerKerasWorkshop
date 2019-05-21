@@ -225,7 +225,7 @@ and edit the file named 'train'
 ```
 vim train
 ```
-change the section history = to match epoch number below
+change the section history = to match epoch number below (navigating in vim to the location in train and hit 'i' to edit the epoch number
 
 ```python
 history = model.fit(x_train, y_train,
@@ -234,6 +234,8 @@ history = model.fit(x_train, y_train,
                             validation_data=(x_test, y_test))
 
 ```
+
+Hit Escape and then `:wq` to save and exit vim.
 
 2\. Open the ‘sagemaker_keras_text_classification.ipynb’ notebook and follow the steps listed in **Lab 4** to upload the data to S3, submit the training job and, finally, deploy the model for inference. The notebook contains explanations for each step and also shows how to test your inference endpoint.
 
