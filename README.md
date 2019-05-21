@@ -242,7 +242,7 @@ Hit Escape and then `:wq` to save and exit vim.
 ### Lab 5: Distributed Training in Script Mode with Horovod Distributed Training Framework.
 This lab will demonstrate both SageMaker Horovod framework as well as SageMaker's Script mode.
 
-#### A. SageMaker's Horovod Distribugted Training Framework
+#### A. SageMaker's Horovod Distributed Training Framework
 
 Amazon SageMaker has built-in training algorithms that provide the ability to do distributed training among multiple compute nodes via 'train_instance_count' parameter. Up until now, if one were to bring his/her own algorithm, they would have to take care of providing their own distributed compute framework and encapsulating it in a container. Horovod has previously been enabled on Amazon Deep Learning AMIs
 (https://aws.amazon.com/blogs/machine-learning/aws-deep-learning-amis-now-include-horovod-for-faster-multi-gpu-tensorflow-training-on-amazon-ec2-p3-instances/).
