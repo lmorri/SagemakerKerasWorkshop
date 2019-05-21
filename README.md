@@ -47,7 +47,7 @@ This will open up a new tab showing the IAM role details. Here click on ‘Attac
 4\. The companion code to this blogpost is on GitHub so let’s go ahead and clone that:
 
 ```
-git clone https://github.com/aws-samples/amazon-sagemaker-keras-text-classification.git ./SageMaker/sagemaker-keras-text-classification
+git clone https://github.com/lmorri/SagemakerKerasWorkshop.git ./SageMaker/sagemaker-keras-text-classification
 ```
 5\.	Switch into the ‘data’ directory
 
